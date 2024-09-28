@@ -1,0 +1,35 @@
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown select {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .dropdown select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .dropdown select:hover {
+    border-color: #0056b3;
+  }
+  
+  .dropdown select option {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 600px) {
+    .dropdown select {
+      width: 100%;
+    }
+  }
+  
